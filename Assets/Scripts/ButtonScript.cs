@@ -6,7 +6,7 @@ using UnityEngine;
 public class ButtonScript : MonoBehaviour
 {
     [Header("Objects")]
-    [SerializeField] private GameObject[] gameObjects;
+    public GameObject[] gameObjects;
     // Start is called before the first frame update
     void Start()
     {
